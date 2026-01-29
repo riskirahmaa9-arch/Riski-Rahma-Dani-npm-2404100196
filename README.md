@@ -1,2 +1,3 @@
-# SDN_100930sibatatngkayu
-websaite resmi SDN 100930
+RISKI RAHMA DANI
+NPM:2404100196
+(TI3)
