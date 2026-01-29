@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Kegiatan Masjid Raya</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+}
+
+.kegiatan {
+    padding: 40px 20px;
+}
+
+.kegiatan h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.kegiatan-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.card video {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+}
+
+.card-content p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+</style>
+</head>
+
+<body>
+
+<section class="kegiatan">
+<h2>Kegiatan Masjid Raya</h2>
+
+<div class="kegiatan-grid">
+
+<!-- CERAMAH -->
+<div class="card">
+    <video controls>
+        <source src="ceramah.mp4" type="video/mp4">
+    </video>
+    <div class="card-content">
+        <h3>Ceramah</h3>
+        <p>Kegiatan ceramah bersama anak-anak dan remaja sebagai pembinaan keagamaan.</p>
+    </div>
+</div>
+
+<!-- ISRA MI'RAJ -->
+<div class="card">
+    <video controls>
+        <source src="isra_miraj.mp4" type="video/mp4">
+    </video>
+    <div class="card-content">
+        <h3>Peringatan Isra Mi'raj</h3>
+        <p>Peringatan Isra Mi'raj Nabi Muhammad SAW dengan ceramah dan doa bersama.</p>
+    </div>
+</div>
+
+<!-- MENGAJI -->
+<div class="card">
+    <video controls>
+        <source src="mengaji.mp4" type="video/mp4">
+    </video>
+    <div class="card-content">
+        <h3>Kegiatan Mengaji</h3>
+        <p>Kegiatan mengaji Al-Qur'an bersama remaja masjid.</p>
+    </div>
+</div>
+
+<!-- KULTUM SUBUH -->
+<div class="card">
+    <video controls>
+        <source src="kultum.mp4" type="video/mp4">
+    </video>
+    <div class="card-content">
+        <h3>Kultum Subuh</h3>
+        <p>Kultum subuh rutin untuk meningkatkan keimanan jamaah.</p>
+    </div>
+</div>
+
+<!-- MANASIK AKBAR -->
+<div class="card">
+    <video controls>
+        <source src="manasik.mp4" type="video/mp4">
+    </video>
+    <div class="card-content">
+        <h3>Manasik akbar</h3>
+        <p>manasik akbar mrupakan bekal tentang tata cara pelaksanaan haji sehingga beribadah dengan lancardan benar sesuai kaidah agama.</p>
+    </div>
+</div>
+
+<!-- SANTUNAN -->
+<div class="card">
+    <video controls>
+        <source src="zakat.mp4" type="video/mp4">
+    </video>
+    <div class="card-content">
+        <h3>Bantuan Anak Yatim & Piatu</h3>
+        <p>Pemberian bantuan kepada anak yatim dan piatu sebagai bentuk kepedulian.</p>
+    </div>
+</div>
+
+</div>
+</section>
+
+</body>
+</html>
